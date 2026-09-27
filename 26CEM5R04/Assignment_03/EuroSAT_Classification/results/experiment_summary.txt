@@ -1,0 +1,91 @@
+EuroSAT Classification Experiment Summary
+=======================================================
+
+Dataset: EuroSAT RGB
+Number of classes: 10
+Total images: 27000
+Image size used: 32 x 32
+Features per image: 3072
+Train-test split: 80% training / 20% testing
+
+Classification Models
+-------------------------------------------------------
+
+Model: Linear SVM
+Parameters: kernel=linear
+Training Samples: 21600
+Accuracy: 0.4296
+Precision: 0.4335
+Recall: 0.4296
+F1-Score: 0.4258
+Training Time: 2124.75 seconds
+Prediction Time: 139.48 seconds
+
+Model: Polynomial SVM
+Parameters: kernel=poly, degree=3
+Training Samples: 21600
+Accuracy: 0.4915
+Precision: 0.5816
+Recall: 0.4915
+F1-Score: 0.4866
+Training Time: 635.38 seconds
+Prediction Time: 190.08 seconds
+
+Model: RBF SVM
+Parameters: kernel=rbf, C=1.0, gamma=scale
+Training Samples: 5000
+Accuracy: 0.6100
+Precision: 0.6130
+Recall: 0.6100
+F1-Score: 0.6005
+Training Time: 40.43 seconds
+Prediction Time: 92.88 seconds
+
+Model: Decision Tree 1
+Parameters: max_depth=10, min_samples_split=2
+Training Samples: 21600
+Accuracy: 0.4822
+Precision: 0.4889
+Recall: 0.4822
+F1-Score: 0.4785
+Training Time: 43.49 seconds
+Prediction Time: 0.04 seconds
+
+Model: Decision Tree 2
+Parameters: max_depth=20, min_samples_split=2
+Training Samples: 21600
+Accuracy: 0.4752
+Precision: 0.4732
+Recall: 0.4752
+F1-Score: 0.4736
+Training Time: 68.79 seconds
+Prediction Time: 0.04 seconds
+
+Model: Decision Tree 3
+Parameters: max_depth=10, min_samples_split=10
+Training Samples: 21600
+Accuracy: 0.4813
+Precision: 0.4880
+Recall: 0.4813
+F1-Score: 0.4776
+Training Time: 43.02 seconds
+Prediction Time: 0.04 seconds
+
+Model: Decision Tree 4
+Parameters: max_depth=20, min_samples_split=10
+Training Samples: 21600
+Accuracy: 0.4754
+Precision: 0.4758
+Recall: 0.4754
+F1-Score: 0.4748
+Training Time: 66.94 seconds
+Prediction Time: 0.04 seconds
+
+System Resource Utilization
+-------------------------------------------------------
+CPU Utilization: 10.70%
+Memory Utilization: 59.80%
+
+Total Classification Experiment Time
+-------------------------------------------------------
+12530.94 seconds
