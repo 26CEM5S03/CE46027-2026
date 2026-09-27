@@ -1,0 +1,19 @@
+REGRESSION MODEL COMPARISON
+============================================================
+
+Dataset: Medical Cost Personal Dataset
+Dataset shape: (1338, 7)
+Training samples: 1070
+Testing samples: 268
+
+                     Model Parameter         MAE          MSE        RMSE  R2 Score  Execution Time (s)  CPU (%)  Memory (MB)
+Multiple Linear Regression      None 4047.525799 3.881866e+07 6230.462365  0.751331            0.038623     40.4  7012.054688
+            KNN Regression       K=3 3644.459173 3.670369e+07 6058.356951  0.764879            0.018171      0.0  7012.136719
+            KNN Regression       K=5 3676.654185 3.683830e+07 6069.456001  0.764017            0.062209      4.3  7011.796875
+            KNN Regression       K=7 3759.950521 3.662161e+07 6051.578748  0.765405            0.042615      0.0  7011.773438
+            KNN Regression       K=9 3727.125991 3.638773e+07 6032.224435  0.766903            0.028151      4.0  7011.500000
+            KNN Regression      K=11 3667.933677 3.616320e+07 6013.584266  0.768342            0.042163     21.5  7016.007812
+
+Highest R2: KNN Regression K=11 = 0.7683
+Lowest RMSE: KNN Regression K=11 = 6013.5843
+Lowest MAE: KNN Regression K=3 = 3644.4592
