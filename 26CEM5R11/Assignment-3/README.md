@@ -2,12 +2,15 @@ ASSIGNMENT 3: ASSESSING THE PERFORMANCE OF SUPPORT VECTOR MACHINE AND DECISION T
 
 
 DATASET USED:
+
 Heart Disease Prediction Data (https://www.kaggle.com/datasets/mfarhaannazirkhan/heart-dataset)
 
 Size: 1888 rows X 14 columns
+
 After removing duplicates: 602 rows X 14 columns
 
 Features:
+
 1. Age
 2. Sex
 3. cp (Chest pain type ---> 0: Typical angina, 1-Atypical angina, 2-Non-anginal pain, 3-Asymptomatic)
@@ -26,6 +29,7 @@ Target (Outcome variable ---> 1-More chance of heart attack, 0-less chance of he
 
 
 PROCEDURE:
+
 1. Loaded the csv and removed the duplicates
 2. Separated the Features (X) from the target (y)
 3. Split into 75% train / 25% test (Random = 42)
@@ -36,20 +40,31 @@ PROCEDURE:
 
 
 OBSERVATIONS MADE:
+
 - t-SNE plot tells that the classes are partly separated; so the 13 features carry signal but do not split the classes cleanly
 - Among SVM, RBF performed the best (0.735) because it can bend its boundary around the data
-- Among Decision Tree,
-- The best performed model on this split is The Decision Tree which shows 118 vs 111 correct predictions
+- Among Decision Tree, Depth 2 underfits at 0.702, depth 5 is best at 0.782, deeper trees fall back to 0.735. The min_samples_split gives 0.755 and 50 gives 0.722.
+- The best performed model on this split is the depth-5-tree which (118 vs 111 correct) versus the RBF SVM (111 of 151).
 
 
 FILES:
+
 -Assignment-3
+
 --Assignment-3_26CEM5R11.py
+
 --cleaned_merged_heart_dataset.csv
+
 --results_summary.csv
+
 --model_comparision.png
+
 --svm_confusion_matrices.png
+
 --tree_confusion_matrices.png
+
 --svm_decision_boundaries.png
+
 --tree_decision_boundaries.png
+
 --tsne_plot.png
