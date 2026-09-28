@@ -1,0 +1,18 @@
+Decision Tree 2 Classification Report
+
+                      precision    recall  f1-score   support
+
+          AnnualCrop     0.4010    0.4183    0.4095       600
+              Forest     0.7648    0.7967    0.7804       600
+HerbaceousVegetation     0.3877    0.4317    0.4085       600
+             Highway     0.2562    0.2280    0.2413       500
+          Industrial     0.6205    0.5560    0.5865       500
+             Pasture     0.5296    0.5375    0.5335       400
+       PermanentCrop     0.2515    0.2440    0.2477       500
+         Residential     0.3448    0.3683    0.3562       600
+               River     0.3891    0.3440    0.3652       500
+             SeaLake     0.7427    0.7600    0.7512       600
+
+            accuracy                         0.4752      5400
+           macro avg     0.4688    0.4684    0.4680      5400
+        weighted avg     0.4732    0.4752    0.4736      5400

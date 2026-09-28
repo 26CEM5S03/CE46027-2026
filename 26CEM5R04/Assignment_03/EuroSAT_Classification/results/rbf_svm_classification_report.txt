@@ -1,0 +1,18 @@
+RBF SVM Classification Report
+
+                      precision    recall  f1-score   support
+
+          AnnualCrop     0.5035    0.4800    0.4915       600
+              Forest     0.7368    0.8633    0.7951       600
+HerbaceousVegetation     0.5172    0.5517    0.5339       600
+             Highway     0.4682    0.2500    0.3259       500
+          Industrial     0.7786    0.8860    0.8288       500
+             Pasture     0.5872    0.8250    0.6861       400
+       PermanentCrop     0.5178    0.3780    0.4370       500
+         Residential     0.4825    0.6883    0.5673       600
+               River     0.5822    0.4960    0.5356       500
+             SeaLake     0.9295    0.6817    0.7865       600
+
+            accuracy                         0.6100      5400
+           macro avg     0.6103    0.6100    0.5988      5400
+        weighted avg     0.6130    0.6100    0.6005      5400

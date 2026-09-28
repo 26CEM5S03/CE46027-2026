@@ -1,0 +1,17 @@
+Model,Accuracy,Precision,Recall,F1 Score,Execution Time (seconds),Memory Change (MB)
+SVM Linear,0.9528,0.9527,0.9528,0.9526,4.482,-0.9
+SVM Linear,0.9528,0.9527,0.9528,0.9526,4.292,-1.06
+SVM Polynomial,0.909,0.912,0.909,0.9089,7.694,3.89
+SVM Polynomial,0.909,0.912,0.909,0.9089,7.336,1.27
+SVM RBF,0.9518,0.9525,0.9518,0.9516,6.125,-3.38
+SVM RBF,0.9518,0.9525,0.9518,0.9516,6.891,25.11
+Decision Tree depth=5 split=2,0.9573,0.959,0.9573,0.9572,0.109,0.14
+Decision Tree depth=10 split=2,0.9643,0.9643,0.9643,0.9643,0.147,0.0
+Decision Tree depth=15 split=2,0.9623,0.9623,0.9623,0.9623,0.172,0.0
+Decision Tree depth=10 split=10,0.9623,0.9623,0.9623,0.9623,0.158,0.0
+Decision Tree depth=15 split=10,0.9635,0.9635,0.9635,0.9635,0.208,0.0
+Decision Tree depth=5 split=2,0.9573,0.959,0.9573,0.9572,0.111,0.0
+Decision Tree depth=10 split=2,0.9643,0.9643,0.9643,0.9643,0.148,0.0
+Decision Tree depth=15 split=2,0.9623,0.9623,0.9623,0.9623,0.211,1.45
+Decision Tree depth=10 split=10,0.9623,0.9623,0.9623,0.9623,0.147,0.0
+Decision Tree depth=15 split=10,0.9635,0.9635,0.9635,0.9635,0.173,0.04

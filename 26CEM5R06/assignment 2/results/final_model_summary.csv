@@ -1,0 +1,3 @@
+Model,R2,MAE,RMSE,Training_Time_Seconds,Prediction_Time_Seconds
+Multiple Linear Regression,0.0677,738.03,949.32,0.003904,0.000507
+KNN Regression,0.0593,733.63,953.6,0.001789,0.01534

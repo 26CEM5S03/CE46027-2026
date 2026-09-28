@@ -1,0 +1,18 @@
+Polynomial SVM Classification Report
+
+                      precision    recall  f1-score   support
+
+          AnnualCrop     0.6951    0.4217    0.5249       600
+              Forest     0.7407    0.7000    0.7198       600
+HerbaceousVegetation     0.3862    0.2800    0.3246       600
+             Highway     0.4359    0.0340    0.0631       500
+          Industrial     0.8282    0.7040    0.7611       500
+             Pasture     0.7045    0.6675    0.6855       400
+       PermanentCrop     0.6533    0.2940    0.4055       500
+         Residential     0.2470    0.8867    0.3863       600
+               River     0.4688    0.3000    0.3659       500
+             SeaLake     0.7073    0.5800    0.6374       600
+
+            accuracy                         0.4915      5400
+           macro avg     0.5867    0.4868    0.4874      5400
+        weighted avg     0.5816    0.4915    0.4866      5400
